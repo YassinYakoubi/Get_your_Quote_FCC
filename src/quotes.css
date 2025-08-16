@@ -29,8 +29,10 @@ body {
     animation: fadeIn 0.5s ease-in-out;
     position: relative;
     overflow: hidden;
+    transition: 3s ease-in-out;
     
 }
+
 
 /* Decorative quotation mark */
 #quote-box::before {
@@ -84,10 +86,13 @@ body {
 
 /* ===== Tweet Quote Placeholder ===== */
 #tweet-quote {
-    margin-top: 15px;
-    font-size: 0.9rem;
+    margin-top: 35px;
+    font-size: 1.5rem;
     color: #8e5a3c;
     cursor: pointer;
+    display: flex;
+    
+    justify-self: center;
 }
 
 /* ===== Responsive Design ===== */

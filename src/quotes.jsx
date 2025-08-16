@@ -23,11 +23,13 @@ class Quotes extends React.Component{
                 <div id="quote-box" >
                     <h1  id="text"  >{MyQuotes[this.state.counter].quote}</h1>
                     <h4 id="author">{MyQuotes[this.state.counter].author}</h4>
-                    <button id="new-quote" onClick={this.handleClick}></button>
-                    <div id="tweet-quote">New quote</div>
+                    <button id="new-quote" onClick={this.handleClick}>New quote</button>
+                    <i id="tweet-quote" className="fab fa-twitter"  href="twitter.com/intent/tweet"></i>
+
                 </div>  
         );
     }
+    
 }
 
 
